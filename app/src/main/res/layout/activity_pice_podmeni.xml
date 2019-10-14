@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".picePodmeni"
+    android:background="@drawable/grey">
+
+
+    <Button
+        android:id="@+id/btn_hrana4"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickHranaPicePodmeni"
+        android:text="  Hrana"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_pice4"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickPicePicePodmeni"
+        android:text="  Pice"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_korpa3"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="otvoriKorpuPicePodmeni"
+        android:text="  Korpa"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/topli"
+        android:layout_width="239dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="470dp"
+        android:layout_marginLeft="470dp"
+        android:layout_marginBottom="41dp"
+        android:text="Topli napici i sejkovi"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="7dp"
+        android:text="Napravite pravi izbor!"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageViewKafa"
+        android:layout_width="173dp"
+        android:layout_height="182dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="500dp"
+        android:onClick="topliIzaberi"
+        app:srcCompat="@drawable/espresso" />
+
+    <ImageView
+        android:id="@+id/imageViewCola"
+        android:layout_width="173dp"
+        android:layout_height="182dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginLeft="233dp"
+        android:onClick="birajObicna"
+        app:srcCompat="@drawable/cocacola" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginBottom="69dp"
+        android:text="Osvezavajuci napici"
+        android:textSize="24sp" />
+
+</RelativeLayout>

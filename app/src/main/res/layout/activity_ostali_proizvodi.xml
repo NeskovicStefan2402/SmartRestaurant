@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ostaliProizvodi"
+    android:background="@drawable/grey">
+
+
+    <Button
+        android:id="@+id/backbtn4"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/back1"
+        android:onClick="backOstalo" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="-290dp"
+        android:layout_marginRight="-290dp"
+        android:text="30 RSD"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="552dp"
+        android:layout_marginLeft="552dp"
+        android:layout_marginTop="241dp"
+        android:text="Pavlaka"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="-290dp"
+        android:text="30 RSD"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="552dp"
+        android:layout_marginLeft="552dp"
+        android:layout_marginTop="94dp"
+        android:text="Majonez"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:text="30 RSD"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="240dp"
+        android:text="Kecap"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageViewPavlaka"
+        android:layout_width="147dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="389dp"
+        android:layout_marginLeft="389dp"
+        android:layout_marginTop="225dp"
+        android:onClick="pavlakaIzaberi"
+        app:srcCompat="@drawable/pavlaka" />
+
+    <ImageView
+        android:id="@+id/imageViewKecap"
+        android:layout_width="147dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="225dp"
+        android:onClick="kecapIzaberi"
+        app:srcCompat="@drawable/ketchup" />
+
+    <ImageView
+        android:id="@+id/imageViewMayo"
+        android:layout_width="147dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="388dp"
+        android:layout_marginLeft="388dp"
+        android:layout_marginTop="82dp"
+        android:onClick="majonezIzaberi"
+        app:srcCompat="@drawable/mayo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="7dp"
+        android:text="Napravite pravi izbor!"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_hrana7"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickHranaOstalo"
+        android:text="  Hrana"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_pice7"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickPiceOstalo"
+        android:text="  Pice"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_korpa6"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="otvoriKorpuOstalo"
+        android:text="  Korpa"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/imageViewPomfrit"
+        android:layout_width="147dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="82dp"
+        android:onClick="pomfritIzaberi"
+        app:srcCompat="@drawable/pomfrit" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="97dp"
+        android:text="Pomfrit"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:text="100 RSD"
+        android:textSize="18sp" />
+</RelativeLayout>

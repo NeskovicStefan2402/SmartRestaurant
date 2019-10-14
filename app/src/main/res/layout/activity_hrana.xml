@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hrana"
+    android:background="@drawable/grey">
+
+
+    <Button
+        android:id="@+id/btn_hrana3"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickHranaHrana"
+        android:text="  Hrana"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_pice3"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickPiceHrana"
+        android:text="  Pice"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_korpa2"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="otvoriKorpuHrana"
+        android:text="  Korpa"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="7dp"
+        android:text="Napravite pravi izbor!"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="173dp"
+        android:layout_height="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="415dp"
+        android:layout_marginRight="415dp"
+        android:background="@drawable/pizza"
+        android:onClick="piceClc"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="175dp"
+        android:layout_height="152dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-213dp"
+        android:layout_marginLeft="-213dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/hmburger"
+        android:onClick="burgerOpen"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="198dp"
+        android:layout_height="148dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/slatkis"
+        android:onClick="slatkisiClick"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginRight="178dp"
+        android:background="@drawable/sendvic"
+        android:onClick="sendvicOpen"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="172dp"
+        android:layout_height="182dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/dodatno"
+        android:onClick="ostaloClick" />
+</RelativeLayout>

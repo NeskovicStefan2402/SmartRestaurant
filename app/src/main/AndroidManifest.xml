@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.stefan.clientsmartrestaurant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/rp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".UvodniFrame">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".meniHrana" />
+        <activity android:name=".korpa" />
+        <activity android:name=".hrana" />
+        <activity android:name=".Pica" />
+        <activity android:name=".vrstapice" />
+        <activity android:name=".picaPodmeni" />
+        <activity android:name=".picePodmeni" />
+        <activity android:name=".sendvic" />
+        <activity android:name=".sendviciVrste" />
+        <activity android:name=".piceVrsta" />
+        <activity android:name=".slatkisi" />
+        <activity android:name=".kreirajPalacinke" />
+        <activity android:name=".slatkisiVrste" />
+        <activity android:name=".ostaliProizvodi" />
+    </application>
+
+</manifest>

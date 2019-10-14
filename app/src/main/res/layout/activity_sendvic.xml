@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sendvic"
+    android:background="@drawable/grey">
+
+    <Button
+        android:id="@+id/btnKrastavac"
+        android:layout_width="78dp"
+        android:layout_height="79dp"
+        android:layout_alignBottom="@+id/btnNutella"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginBottom="-114dp"
+        android:background="@drawable/krastavac"
+        android:onClick="krastavac" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="268dp" />
+
+    <Button
+        android:id="@+id/btnParadajz"
+        android:layout_width="77dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="376dp"
+        android:layout_marginLeft="376dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/paradajz"
+        android:onClick="paradajz" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="449dp"
+        android:layout_marginLeft="449dp"
+        android:layout_marginTop="270dp" />
+
+    <Button
+        android:id="@+id/btn_hrana5"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickHranaSendvic1"
+        android:text="  Hrana"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_pice5"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="clickPiceSendvic1"
+        android:text="  Pice"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_korpa4"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="otvoriKorpuSendvic1"
+        android:text="  Korpa"
+        android:textAllCaps="false"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/backbtn2"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/back1"
+        android:onClick="backSendvic1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="299dp"
+        android:layout_marginLeft="299dp"
+        android:layout_marginTop="317dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="452dp"
+        android:layout_marginLeft="452dp"
+        android:layout_marginTop="151dp" />
+
+    <ImageView
+        android:id="@+id/imageViewSendvic"
+        android:layout_width="202dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginLeft="179dp"
+        android:layout_marginTop="131dp"
+        android:onClick="izaberiSendvic"
+        app:srcCompat="@drawable/sendvicnone" />
+
+    <Button
+        android:id="@+id/btnNutella"
+        android:layout_width="84dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="379dp"
+        android:layout_marginLeft="379dp"
+        android:layout_marginBottom="219dp"
+        android:background="@drawable/pavlaka"
+        android:onClick="pavlaka" />
+
+    <Button
+        android:id="@+id/btnMarmelada"
+        android:layout_width="97dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginLeft="229dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/ketchup"
+        android:onClick="ketchup" />
+
+    <Button
+        android:id="@+id/btnMayo"
+        android:layout_width="79dp"
+        android:layout_height="105dp"
+        android:layout_alignBottom="@+id/btnNutella"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/mayo"
+        android:onClick="mayo" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="154dp" />
+
+    <Button
+        android:id="@+id/btnVisnja"
+        android:layout_width="82dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/imageViewPizza"
+        android:layout_alignStart="@+id/btnMarmelada"
+        android:layout_alignLeft="@+id/btnMarmelada"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/zelenasalata"
+        android:onClick="salata" />
+
+    <ImageView
+        android:id="@+id/imageViewEK"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginLeft="302dp"
+        android:layout_marginTop="36dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSastojci"
+        android:layout_width="163dp"
+        android:layout_height="307dp"
+        android:layout_alignTop="@+id/imageViewEK"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-27dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="206dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/radius_btn"
+        android:text="   Vrsta sendvica"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="183dp"
+        android:layout_height="43dp"
+        android:layout_alignEnd="@+id/btnVisnja"
+        android:layout_alignRight="@+id/btnVisnja"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="-47dp"
+        android:layout_marginRight="-47dp"
+        android:text="Izaberi vrstu sendvica"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/backbtn2"
+        android:layout_alignEnd="@+id/btnNutella"
+        android:layout_alignRight="@+id/btnNutella"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-64dp"
+        android:layout_marginRight="-64dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="zavrsi"
+        android:text="Zavrsi kupovinu"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+</RelativeLayout>
